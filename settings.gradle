@@ -1,0 +1,3 @@
+rootProject.name='Realm UTF8 Issue'
+include ':app'
+include ':realm-utf8-issue'
