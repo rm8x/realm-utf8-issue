@@ -21,8 +21,10 @@ class StringHaverInteractor(
 
             val obj = StringHaver(
                 // BEWARE
-//                problemString
-                realmHackBadUtfConversion(problemString)
+                problemString
+
+                // WORKAROUND
+                // realmHackBadUtfConversion(problemString)
             )
 
             stringHavers.add(obj)
